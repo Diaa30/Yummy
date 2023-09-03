@@ -497,7 +497,7 @@ contactBtn.addEventListener("click", function () {
   displayContactUs();
 });
 function displayContactUs() {
-  const cartona = `<div class="container vh-100 d-flex align-items-center">
+  const cartona = `<div class="container wid-small-section vh-100 d-flex align-items-center">
   <form class="">
   <div class="row  align-items-center justify-content-center">
       <div class="col-md-6">

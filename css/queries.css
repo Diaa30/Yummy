@@ -118,7 +118,10 @@
     width: 100%;
   }
   form > div {
-    padding-left: 3rem;
+    padding-left: 1rem;
+  }
+  form > div .col-md-6 {
+    padding: 0;
   }
   .container {
     width: 90%;
@@ -128,6 +131,11 @@
     font-size: 12px;
   }
   .collapse:not(.show) {
-    display: block;
+    display: flex;
+  }
+  .wid-small-section {
+    width: 100%;
+    padding: 0;
+    margin: 0;
   }
 }
